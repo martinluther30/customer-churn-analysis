@@ -1,20 +1,21 @@
-# customer-churn-analysis
-Customer churn analysis and prediction using a telecom subscription data.
+# Customer-churn-analysis
+Customer churn analysis and prediction using telecom subscription data.
 Customer Churn Analysis & Prediction
 Overview
 
-Customer churn is a major challenge for subscription-based businesses such as telecom companies. This project analyzes customer behavior to identify the key drivers of churn and build a predictive model to help businesses proactively retain customers.
+Customer churn is a major challenge for subscription-based businesses such as telecom companies. This project analyses customer behaviour to identify the key drivers of churn and build a predictive model to help businesses proactively retain customers.
 
-The dataset contains 7,000+ telecom customers with information about services, contracts, billing behavior, and churn status.
+The dataset contains 7,000+ telecom customers with information about services, contracts, billing behaviour, and churn status.
 
-Key Findings
+Key Findings: 
+
 Contract Type
 
 Customers on month-to-month contracts show the highest churn rate (43%), compared to 11% for one-year contracts and only 3% for two-year contracts.
 
 Customer Tenure
 
-Nearly 48% of customers in their first year churn, while churn drops significantly after two years.
+Nearly 48% of customers churn in their first year, while churn drops significantly after two years.
 
 Tech Support
 
@@ -58,7 +59,7 @@ Recall (Churn): 58%
 
 ROC-AUC: 0.86
 
-The model demonstrates strong ability to distinguish between churners and retained customers.
+The model demonstrates a strong ability to distinguish between customers who churn and retained customers.
 
 Business Recommendations
 
@@ -70,4 +71,18 @@ Providing onboarding support for new customers
 
 Bundling tech support with internet services
 
-Targeting high-risk customers with retention offers
+Targeting high-risk customers with attractive retention offers
+
+Tools Used
+
+Python
+
+Pandas
+
+Scikit-Learn
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook
